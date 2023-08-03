@@ -4,6 +4,13 @@ export default sidebar({
   "/": [
     "",
     {
+      text: "DND Manual",
+      icon: "book",
+      prefix: "manual/",
+      link: "manual/README",
+      children: "structure",
+    },
+    {
       text: "Demo",
       icon: "laptop-code",
       prefix: "demo/",

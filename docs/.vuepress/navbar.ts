@@ -2,6 +2,22 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
+  {
+    text: "DND Manual",
+    icon: "book",
+    prefix: "/manual/",
+    link: "/manual/README",
+    children: [
+      {
+        text: "Characterizations",
+        prefix: "Characterizations/",
+        children: [
+          "Alignment",
+          "Backgrounds",
+        ],
+      },
+    ],
+  },
   "/demo/",
   {
     text: "Guide",

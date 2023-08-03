@@ -10,8 +10,8 @@ bgImageStyle:
 heroText: Project name
 tagline: You can place the description of the project here.
 actions:
-  - text: How to Use 💡
-    link: ./demo/
+  - text: DND Manual 💡
+    link: ./manual/
     type: primary
 
   - text: Docs
