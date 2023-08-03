@@ -8,36 +8,89 @@ export default navbar([
     prefix: "/manual/",
     link: "/manual/README",
     children: [
+      //
+      // Begin Equipment
       {
-        text: "Characterizations",
-        prefix: "Characterizations/",
+        text: "Equipment",
+        prefix: "Equipment/",
         children: [
-          "Alignment",
-          "Backgrounds",
+          "Armor",
+          "Coinage",
+          "Expenses",
+          "Gear",
+          "Selling Treasure",
+          "Tools",
+          "Trade Goods",
+          "Transportation",
+          "Weapons",
+        ], // end children.Equipment
+      }, // end Equipment
+      //
+      // Begin Gamemastering
+      {
+        text: "Gamemastering",
+        prefix: "Gamemastering/",
+        children: [
+          "Conditions",
         ],
       },
-    ],
-  },
-  "/demo/",
+    ], // end children DND Manual
+  }, // end DND Manual
+  // Begin manual/Characterizations
   {
-    text: "Guide",
-    icon: "lightbulb",
-    prefix: "/guide/",
+    text: "Characterizations",
+    prefix: "/manual/Characterizations/",
     children: [
-      {
-        text: "Bar",
-        icon: "lightbulb",
-        prefix: "bar/",
-        children: ["baz", { text: "...", icon: "ellipsis", link: "#" }],
-      },
-      {
-        text: "Foo",
-        icon: "lightbulb",
-        prefix: "foo/",
-        children: ["ray", { text: "...", icon: "ellipsis", link: "#" }],
-      },
-    ],
+      "Alignment",
+      "Backgrounds",
+      "Beyond 1st Level",
+      "Feats",
+      "Inspiration",
+      "Languages",
+      "Multiclassing",
+    ], // end children.Characterizations
+  }, // end Characterizations
+  // Begin Classes
+  {
+    text: "Classes",
+    prefix: "/manual/Classes/",
+    children: [
+      "Barbarian",
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Fighter",
+      "Monk",
+      "Paladin",
+      "Ranger",
+      "Rogue",
+      "Sorcerer",
+      "Warlock",
+      "Wizard",
+    ], // end children.Classes
   },
+  //
+  //
+  // "/demo/",
+  // {
+  //   text: "Guide",
+  //   icon: "lightbulb",
+  //   prefix: "/guide/",
+  //   children: [
+  //     {
+  //       text: "Bar",
+  //       icon: "lightbulb",
+  //       prefix: "bar/",
+  //       children: ["baz", { text: "...", icon: "ellipsis", link: "#" }],
+  //     },
+  //     {
+  //       text: "Foo",
+  //       icon: "lightbulb",
+  //       prefix: "foo/",
+  //       children: ["ray", { text: "...", icon: "ellipsis", link: "#" }],
+  //     },
+  //   ],
+  // },
   {
     text: "V2 Docs",
     icon: "book",
