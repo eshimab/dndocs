@@ -1,13 +1,13 @@
 ---
 home: true
 icon: home
-title: Project home
+title: DND via Vuepress-Theme-Hope
 heroImage: /logo.svg
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroText: Project name
+heroText: DnDocs
 tagline: You can place the description of the project here.
 actions:
   - text: DND Manual 💡
