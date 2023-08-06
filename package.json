@@ -7,11 +7,12 @@
   "scripts": {
     "docs:build": "vuepress build docs",
     "docs:clean-dev": "vuepress dev docs --clean-cache",
-    "docs:dev": "vuepress dev docs",
+    "docs:dev": "vuepress dev docs --port 8081",
     "docs:update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.66",
+    "markdown-it-implicit-figures": "^0.11.0",
     "typescript": "^5.1.6",
     "vue": "^3.3.4",
     "vue-router": "^4.2.4",
@@ -19,9 +20,5 @@
     "vuepress-plugin-md-enhance": "2.0.0-beta.234",
     "vuepress-plugin-search-pro": "2.0.0-beta.234",
     "vuepress-theme-hope": "2.0.0-beta.234"
-  },
-  "dependencies": {
-    "markdown-it-implicit-figures": "^0.11.0",
-    "search": "^1.0.0"
   }
 }
