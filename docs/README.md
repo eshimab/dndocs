@@ -1,30 +1,31 @@
 ---
 home: true
 icon: home
-title: DND via Vuepress-Theme-Hope
+title: DnD Manual
 heroImage: /logo.svg
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroText: DnDocs
-tagline: You can place the description of the project here.
+heroText: DnD SR5 Manual
+tagline: Manual markdown forked from OldManUmby's SR5 Markdown write-up, VuePress configured with vuepress-theme-hope
 actions:
-  - text: DND Manual 💡
+  - text: DND Manual
     link: ./manual/
     type: primary
 
-  - text: Docs
-    link: ./guide/
+  - text: OldManUmby Repo
+    link: https://github.com/OldManUmby/OGL-SRD5
+    type: primary
 
 highlights:
-  - header: Easy to install
+  - header: Forked from OldManUmby's Markdown Manual
     image: /assets/image/box.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
     highlights:
-      - title: Run <code>pnpm create vuepress-theme-hope hope-project</code> to create a new project with this theme.
-      - title: Run <code>pnpm create vuepress-theme-hope add .</code> in your project root to create a new project with this theme.
+      - title: <a href="https://github.com/OldManUmby/OGL-SRD5">Checkout OldManUmby's Markdown Repository <code>DND.SRD.Wiki</code> on GitHub</a>
+      - title: <a href="https://theme-hope.vuejs.press/">Checkout the <code>vuepress-theme-hope</code> documentation site</a>
 
   - header: Add things you want in markdown
     description: We extended the standard commonMark specification and added tons of new features for you.
